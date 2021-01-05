@@ -314,7 +314,7 @@ With added Experiences on Web designing and developing equiped with a skill set 
         
         
         
-        <p>Copyright &copy; 2019. Created By <b>Vincent Thejane</b></p>
+        <p>Copyright &copy; <span class="date"></span>. Created By <b>Vincent Thejane</b></p>
           <br>
           </div>
           
@@ -396,7 +396,7 @@ AOS.init({
     
     
 }); 
-
+ document.querySelector('.date').innerHTML= new Date().getFullYear();
 
 </script>
 
