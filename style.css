@@ -4,10 +4,27 @@
 html {
     scroll-behavior:smooth;
 }
+*{
+    margin:0;
+    padding:0;
+    
+}
 
 body {
     margin:0;
     padding:0;
+   
+}
+#canvas {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    transition:all .3s ease-in-out;
+
 }
 
 
@@ -15,8 +32,8 @@ header {
     background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9dKgMrXGyd5MjSZU4GTKmAr_IHe81TTkDeUXIAByjNWvFoCfP");
     height:auto;
     width:100%;
-   background-size:cover; background-repeat:no-repeat ;
-   background-position:center;
+    background-size:cover; background-repeat:no-repeat ;
+    background-position:center;
     background-color:rgba(0,0,0,0.85);
     background-blend-mode:color;
     font-family:arial;
@@ -98,6 +115,9 @@ header li:hover {
 
 
 @media screen and (max-width:600px) {
+    *{
+        overflow-x:hidden;
+    }
     header li {
         display:block;
         text-align:left;
@@ -138,6 +158,7 @@ header li:hover {
    
    
    }
+   
    
    #bar {
        display:block;
@@ -192,11 +213,26 @@ header li:hover {
     .about {
         text-align:center;
         width:75%;
-         padding-left:12.5%;
-         padding-right:12.5%;
-         color:gray;
+        padding-left:12.5%;
+        padding-right:12.5%;
+        color:rgb(66, 68, 68);
          
          
+    }
+    .about::before{
+        content:"";
+        background-image: url("/Startup\ Idea\ \(1\).svg");
+        background-blend-mode: color;
+        width:75%;
+        height:100%;
+        filter:opacity(.5);
+        position:absolute;
+        background-size:cover;
+        background-repeat:no-repeat ;
+        background-position:center;
+        justify-content: center;
+        align-items: center;
+
     }
     
 

@@ -1,3 +1,12 @@
+//Remove loader
+const removeLoader =( ()=>{
+    
+    setTimeout(() => {
+        const loader = document.querySelector("canvas");
+        loader.style.display="none";
+    },10000);
+})();
+
 
 //Nav bar Mobile
 function openMenu() {
@@ -6,7 +15,7 @@ function openMenu() {
     
 open.style.right="0%"
 
-};
+}
 
 
 function closeMenu() {
@@ -14,9 +23,9 @@ function closeMenu() {
     var close = document.querySelector("ul");
 
        
-    close.style.right="-1000%"
+    close.style.right="-100%"
     
-};
+}
 
 // Contact Function
 
@@ -26,7 +35,7 @@ function openContact() {
     open.style.height="100vh";
 open.style.top="0%";
 
-};
+}
 
 function closeContact() {
 
@@ -34,7 +43,7 @@ function closeContact() {
 
     
     
-close.style.top="-1000%";
+close.style.top="-100%";
 
-};
+}
 
