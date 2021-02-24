@@ -23,7 +23,7 @@ function closeMenu() {
     var close = document.querySelector("ul");
 
        
-    close.style.right="-100%"
+    close.style.right="-1000%"
     
 }
 
@@ -43,7 +43,7 @@ function closeContact() {
 
     
     
-close.style.top="-100%";
+close.style.top="-1000%";
 
 }
 
