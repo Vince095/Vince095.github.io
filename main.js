@@ -1,11 +1,15 @@
 //Remove loader
+
 const removeLoader =( ()=>{
-    
     setTimeout(() => {
+      
         const loader = document.querySelector("canvas");
         loader.style.display="none";
-    },10000);
+    },10000)
+
 })();
+
+
 
 
 //Nav bar Mobile
