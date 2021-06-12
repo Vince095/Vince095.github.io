@@ -5,12 +5,8 @@ const removeLoader =( ()=>{
       
         const loader = document.querySelector("canvas");
         loader.style.display="none";
-<<<<<<< HEAD
-    },10000)
+    },6000)
 
-=======
-    },6000);
->>>>>>> f899d42b5d2ad531dbdf4c73394d76178127feb7
 })();
 
 
