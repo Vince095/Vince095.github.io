@@ -136,7 +136,19 @@ window.onload = function(){
         }
         window.requestAnimationFrame(animate);
     }
-    animate();
+
+    let killAnimation = false;
+
+    setTimeout(()=>{
+        killAnimation = true;
+    },3000);
+    
+    if(!killAnimation){
+        animate();
+    }
+
+   // animate();
+
     cnv.onclick = ()=>{
         setInterval(()=>{
              if(!touched && !bricks[0].fc){
