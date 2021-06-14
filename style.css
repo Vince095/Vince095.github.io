@@ -166,7 +166,34 @@ header li:hover {
         margin-right:1%;
     
   }  
-    
+  .bubble {
+      position:absolute;
+      display: flex;
+      background-color:#F9F9F9;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      left: 36.5rem;
+      margin-top: 10px;
+      margin-left: -8.2px;
+      box-shadow: inset 0 0 3px #F9F9F9;
+      z-index:2;
+  }
+  .avatar {
+    width: 90px;
+    display:flex;
+    border-radius: 4px;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(255, 255, 255, 0.822);
+    box-shadow: 2px 4px 6px #9fa09a5b;;
+  }
+  .avatar >img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
     
 
 
