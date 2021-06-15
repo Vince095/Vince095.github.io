@@ -31,13 +31,16 @@ body {
 }
 .logo {
     position: absolute;
-    width:8rem;
+    justify-content: center;
+    width:3.5rem;
+    height:auto;
     display:flex;
-    left:0;
-    top: -4.5rem;
+    left:4px;
+   
+    top:2px;
     margin:0;
     padding:0;
-    opacity:0.4;
+    opacity:1;
     
 
 }
