@@ -137,14 +137,15 @@ window.onload = function(){
         window.requestAnimationFrame(animate);
     }
 
-    let killAnimation = false;
+    var killAnimation = true;
 
     setTimeout(()=>{
-        killAnimation = true;
-    },3000);
+        killAnimation = false;
+    },10000);
     
-    if(!killAnimation){
+    if(killAnimation){
         animate();
+       
     }
 
    // animate();

@@ -32,11 +32,10 @@ body {
 .logo {
     position: absolute;
     justify-content: center;
-    width:3.5rem;
+    width:3rem;
     height:auto;
     display:flex;
-    left:4px;
-   
+    left:4px; 
     top:2px;
     margin:0;
     padding:0;
@@ -319,9 +318,10 @@ header li:hover {
         content:"";
         background-image: url("/Startup\ Idea\ \(1\).svg");
         background-blend-mode: color;
-        width:75%;
+        width:50%;
         height:100%;
-        filter:opacity(.5);
+        filter:opacity(.4);
+        right: -6rem;
         position:absolute;
         background-size:cover;
         background-repeat:no-repeat ;
