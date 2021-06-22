@@ -32,14 +32,14 @@ body {
 .logo {
     position: absolute;
     justify-content: center;
-    width:3rem;
-    height:auto;
+    width:auto;
+    height:2rem;
     display:flex;
     left:4px; 
-    top:2px;
+    top:5px;
     margin:0;
     padding:0;
-    opacity:1;
+    opacity:.7;
     
 
 }
