@@ -57,7 +57,7 @@ window.onload = function(){
         constructor(x, y) {
             this.x = x;
             this.y = y;
-            this.color = "red";
+            this.color = "#F2F2F2";
             this.dy = -(L / 42) + (L / 21) * random();
             this.dx = -(L / 42) + (L / 21) * random();
             this.vx = this.dx;
