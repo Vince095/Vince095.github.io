@@ -8,14 +8,15 @@ html {
 *{
     margin:0;
     padding:0;
+    box-sizing:content-box;
     
 }
 
 
 body {
-    margin:0;
-    padding:0;
+  
     background-color:#F9F9F9;
+    overflow-x: hidden;
 }
 #canvas {
     position: fixed;

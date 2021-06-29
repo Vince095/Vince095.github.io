@@ -1,13 +1,15 @@
 //Remove loader
-
-const removeLoader =( ()=>{
+window.onload=()=>{
+    removeLoader();
+}
+const removeLoader = ()=>{
     setTimeout(() => {
       
-        const loader = document.querySelector("canvas");
+        const loader = document.querySelector(".loader");
         loader.style.display="none";
-    },6000);
+    },7000);
 
-})();
+};
 
 
 
