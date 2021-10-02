@@ -13,7 +13,6 @@ const removeLoader = ()=>{
 
 
 
-
 //Nav bar Mobile
 function openMenu() {
     
