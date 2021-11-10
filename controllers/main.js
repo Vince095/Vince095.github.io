@@ -7,7 +7,7 @@ const removeLoader = ()=>{
       
         const loader = document.querySelector(".loader");
         loader.style.display="none";
-    },7000);
+    },3000);
 
 };
 

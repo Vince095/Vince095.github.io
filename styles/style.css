@@ -236,6 +236,16 @@ header li:hover {
     *{
         overflow-x:hidden;
     }
+    .dev{
+        
+        margin-top: 80%;
+        width: 130%;
+        left: -15%;
+    }
+    .svg_text{
+        width: 100%;
+        height: 10em;
+    }
     header li {
         display:block;
         text-align:left;
@@ -245,6 +255,14 @@ header li:hover {
         width:50%;
         color:white;
          
+    
+    }
+    .headertext h1{
+        width:130%;
+        font-size:3.5rem;
+    }
+    .headertext h3{
+        font-size:1.5rem;
     
     }
     canvas {
