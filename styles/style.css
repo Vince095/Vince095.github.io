@@ -72,9 +72,9 @@ header {
 .blur{ 
     width: 100%;
     position: absolute;
-    height:120vh;
+    height:100%;
     left: 20%;
-    background: linear-gradient(rgba(8, 8, 8, 0.281), rgb(3, 3, 10));
+    background: linear-gradient(rgba(8, 8, 8, 0.192), rgb(3, 3, 10));
     backdrop-filter: blur(1px);
     
     top:0;
@@ -367,7 +367,7 @@ header li:hover {
     }
     .about::before{
         content:"";
-        background-image: url("/Startup\ Idea\ \(1\).svg");
+        background-image: url("");
         background-blend-mode: color;
         width:50%;
         height:100%;
