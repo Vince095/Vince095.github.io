@@ -8,6 +8,10 @@
               -->
         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="software Development Agency" name="description">
+    <meta name="google" content="notranslate" />
+    <meta content="landing page for company site" name="vincent thejane">
+  
     <meta charset= UTF-8>
     <link rel="shortcut icon" type="image" href="/items/logo.svg"/>
     
@@ -17,7 +21,16 @@
    <script src="/controllers/main.js"></script>
    <!--script src="particles.js"></script-->
    <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
-   <script src="attractors.js"></script>
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT9SFE9MK8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZT9SFE9MK8');
+    </script>
 
     </head>
     <body>
@@ -30,7 +43,11 @@
           <img src="/items/load/text.svg" alt="" class="svg_text" data-aos="fade-right">
           <img src="/items/load/load_logo.svg" alt="" class="load_logo">
           <img src="/items/dev.svg" alt="" class="dev">
-          <img src="/items/load/load.svg" alt="" class="load_icon">
+          <section class="load_icon">
+            <img src="/items/load/load.svg" alt="">
+            <h5>Loading...</h5>
+          </section>
+          
      </div>  
     
   <!-- Header 
@@ -471,5 +488,7 @@ AOS.init({
 document.querySelector('.date').innerHTML= new Date().getFullYear();
 
 </script>
+
+
 </body>
 </html>
